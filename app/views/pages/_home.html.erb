@@ -1,6 +1,7 @@
+
 <% if user_signed_in? %>
 
-<h2> You're logged in! </h2>
+<h2> Welcome <%= @user.name%> </h2>
 <%else %>
 
 <div class="hero-unit">
